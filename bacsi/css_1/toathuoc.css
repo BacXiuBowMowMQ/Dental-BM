@@ -1,0 +1,84 @@
+
+
+
+.form-row {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.form-row label {
+    flex: 0 0 150px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.form-row input[type="text"],
+.form-row input[type="date"],
+.form-row select {
+    flex: 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.form-row button {
+    flex: 0 0 auto;
+    padding: 8px 12px;
+    border: none;
+    background-color: #00ffc3;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* .form-row button:hover {
+    background-color: #8bedc4;
+} */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    /* background-color: #eaf6ff; */
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#thuoc_fields div {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#thuoc_fields div select,
+#thuoc_fields div input {
+    margin-right: 10px;
+}
+
+#thuoc_fields div button {
+    margin-left: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#thuoc_fields div button:hover {
+    background-color: #218838;
+}
